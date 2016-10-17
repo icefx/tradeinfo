@@ -1,9 +1,9 @@
 //+------------------------------------------------------------------+
 //|                                                    TradeInfo.mq4 |
-//|                                         Copyright © 2015, Ice FX |
+//|                                         Copyright Â© 2016, Ice FX |
 //|                                              http://www.icefx.eu |
 //+------------------------------------------------------------------+
-#property copyright "Copyright © 2015, Ice FX <http://www.icefx.eu>"
+#property copyright "Copyright Â© 2016, Ice FX <http://www.icefx.eu>"
 #property link      "http://www.icefx.eu"
 #property version   "1.98"
 #property strict
@@ -76,8 +76,8 @@ string   IndiName                      = "TradeInfo v1.9.8";
    v1.9.0 - 2013.10.17
    --------------------
       - Added Estimated profit and max losses in pips
-      - StartDateFilter: beállítható a profitszámítás kezdõ idõpontja
-      - ShowRiskInfo default értéke false
+      - StartDateFilter: beÃ¡llÃ­thatÃ³ a profitszÃ¡mÃ­tÃ¡s kezdÃµ idÃµpontja
+      - ShowRiskInfo default Ã©rtÃ©ke false
       - Show daily and monthly average gain
       - ProfitInfo refresh only every 10 seconds
 
@@ -699,7 +699,7 @@ void setCurrency() {
       preCurrSign = "$";
       postCurrSign = postCurrSign;   
    } else if (currSign == "EUR") {
-      preCurrSign = "€";
+      preCurrSign = "Â€";
       postCurrSign = postCurrSign;   
    } else {
       preCurrSign = "";
