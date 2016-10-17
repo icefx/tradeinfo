@@ -3,6 +3,8 @@
 
 IceFX’s TradeInfo is a utility indicator which displays the most important information of the current account and position.
 
+[![](http://www.icefx.eu/wp-content/uploads/tradeinfo_main-1024x661.png)](https://github.com/icefx/tradeinfo)
+
 ## Displayed information:
 
 * Information about the current account (Balance, Equity, Free Margin)
